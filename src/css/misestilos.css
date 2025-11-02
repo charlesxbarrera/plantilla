@@ -82,4 +82,30 @@ img {
   height: auto;
   border-radius: 10px;
   }
+/* Nav / Menu */
+nav.menu{
+    border-bottom: 1px solid #000;
+    position: relative;
+    background-color: #f50c0c;
+}
+
+nav.menu ul{
+    position: relative;
+    width: 100%;
+}
+
+nav.menu ul li{
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    list-style: none;
+}
+
+nav.menu ul li a{
+    display: block;
+    position: relative;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: #d7f130;
+}
   
