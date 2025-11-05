@@ -1,0 +1,129 @@
+*{
+   margin: 0px;
+   padding: 0px; 
+}
+h1 {
+    font: bold 20px verdana, sans-serif;
+    background-color: #cccccc;
+}
+h2 {
+    font: bold 14px verdana, sans-serif;
+}
+header, section, footer, aside, nav, article, figure, figcaption, hgroup{
+    display: block;
+}
+body {
+    text-align: center;
+}
+#agrupar {
+    width: 960px;
+    margin: 15px auto;
+    text-align: center;
+    border: 1px solid #000;
+}
+#cabecera {
+    background: #fffbb9;
+    border: 1px solid #999999;
+    padding: 20px;
+}
+#menu {
+    background: #cccccc;
+    padding: 5px 15px;
+}
+#menu li {
+    display: inline-block;
+    list-style: none;
+    padding: 5px;
+    font: bold 14px verdana, sans-serif;
+}
+#seccion {
+    float: left;
+    width: 660px;
+    margin: 20px;
+    background-color: #E6E6E6;
+}
+#columna {
+    float: right;
+    width: 220px;
+    margin: 20px 0px;
+    padding: 20px;
+    background: #d38cf0;
+}
+#pie {
+    clear: both;
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid #999999;
+}
+article {
+    background: #c8f1ad;
+    border: 1px solid #999999;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+article footer {
+    text-align: right;
+}
+time {
+    color: #29daf1;
+}
+figcaption {
+    font: italic 14px verdana, sans-serif;
+}
+
+body{
+    background-image: url(../assets/masami-kurumada-obras.jpg);
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+img {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  }
+/* Nav / Menu */
+nav.menu{
+    border-bottom: 1px solid #000;
+    position: relative;
+    background-color: #f50c0c;
+}
+
+nav.menu ul{
+    position: relative;
+    width: 100%;
+}
+
+nav.menu ul li{
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    list-style: none;
+}
+
+nav.menu ul li a{
+    display: block;
+    position: relative;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: #d7f130;
+}
+.bio {
+    overflow: auto; /* Asegura que el contenedor se ajuste al contenido flotante */
+}
+
+.bio img {
+    float: left;          /* Coloca la imagen a la izquierda */
+    width: 200px;         /* Ajusta el tamaño de la imagen */
+    margin: 0 15px 10px 0;/* Espacio a la derecha y debajo de la imagen */
+    border-radius: 5px;   /* Bordes redondeados (opcional) */
+}
+
+.bio p {
+    text-align: justify;  /* Justifica el texto como en Wikipedia */
+    line-height: 1.6;     /* Espaciado cómodo para lectura */
+}
+blockquote img {
+    max-width: 100%;   /* Nunca supera el ancho del blockquote */
+    height: auto;
+}

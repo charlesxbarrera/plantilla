@@ -108,4 +108,18 @@ nav.menu ul li a{
     padding: 10px 20px;
     color: #d7f130;
 }
-  
+.bio {
+    overflow: auto; /* Asegura que el contenedor se ajuste al contenido flotante */
+}
+
+.bio img {
+    float: left;          /* Coloca la imagen a la izquierda */
+    width: 200px;         /* Ajusta el tamaño de la imagen */
+    margin: 0 15px 10px 0;/* Espacio a la derecha y debajo de la imagen */
+    border-radius: 5px;   /* Bordes redondeados (opcional) */
+}
+
+.bio p {
+    text-align: justify;  /* Justifica el texto como en Wikipedia */
+    line-height: 1.6;     /* Espaciado cómodo para lectura */
+}
